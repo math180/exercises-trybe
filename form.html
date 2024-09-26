@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mouse+Memoirs&family=Poppins:ital,wght@0,100;0,200;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Trybe-Trip</title>
+</head>
+
+<body>
+    <header>
+        <form action="" id="form">
+            <label for="name-input">Nome:</label>
+            <input type="text" id="name-input" placeholder="Digite seu nome completo" name="texto" required
+                minlength="10" maxlength="40"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" name="email" required minlength="10"
+                maxlength="50"> <br>
+            <h3>Destino preferido</h3>
+            <label for="option-1"><input type="radio" name="Opção" id="option-1" class="radio">Cidade</label>
+            <label for="option-2"><input type="radio" name="Opção" id="option-2" class="radio">Campo</label>
+            <label for="option-3"><input type="radio" name="Opção" id="option-3" class="radio">Praia</label>
+            <label for="option-4"><input type="radio" name="Opção" id="option-4" class="radio">Montanhas</label><br>
+            <h3>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h3>
+            <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"
+                placeholder="Digite o motivo aqui"></textarea>
+            <h3>Qual a melhor data para realizar sua viagem</h3>
+            <label for="data">Data:<input type="date" name="data" id="data" required></label>
+            <h4>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+            </h4>
+            <label for="sim"><input type="checkbox" name="sim" id="sim"> Sim</label><br><br>
+            <label for="agree"><input type="checkbox" name="" id="agree"> Concordo que imagens das minhas férias poderão
+                ser usadas na divulgação de concursos futuros.</label><br><br>
+            <button id="enviar">Enviar</button>
+            <button id="limpar">Limpar</button>
+        </form>
+    </header>
+</body>
+
+</html>

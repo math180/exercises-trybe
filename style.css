@@ -1,0 +1,17 @@
+form {
+    width: 80%;
+    text-align: justify;
+}
+
+body {
+    font-family: 'montserrat'
+}
+
+input {
+    padding: 5px;
+    margin: 3px;
+}
+
+button {
+    font-size: 18px;
+}
